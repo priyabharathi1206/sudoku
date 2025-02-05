@@ -62,9 +62,9 @@ while(True):
     
     row=int(input("row:"))
     column=int(input("column:"))
-    number=int(input("number:"))
+    number=int(input("number:")) 
     
-    
+
     res=check(number,row,column)
     matrix[row][column]=number
     print(res)
